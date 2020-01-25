@@ -1,4 +1,6 @@
 var grandmaShout = "YES INDEED!"
+var grandmaWhisper = "I can't hear you!"
+var grandmaLove = "I love you, too"
 function shout(string){
   return string.toUpperCase()
 }
@@ -15,4 +17,8 @@ function sayHiToGrandma(string){
   if(string === string.toUpperCase()){
     return grandmaShout
   }
+  if(string === string.toLowerCase()){
+    return grandmaWhisper
+  }
+  
 }
