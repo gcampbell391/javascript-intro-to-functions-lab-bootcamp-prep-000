@@ -1,6 +1,6 @@
 var grandmaShout = "YES INDEED!"
 var grandmaWhisper = "I can't hear you!"
-var grandmaLoveOne = "I love you,Grandma."
+var grandmaLoveOne = "I love you, Grandma."
 var grandmaLoveTwo = "I love you, too."
 function shout(string){
   return string.toUpperCase()
